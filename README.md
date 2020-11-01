@@ -18,9 +18,46 @@
 
 ## This Jetpack Compose Example Project will help you in learning the following for Android App Development:
 * How to build UI using Jetpack Compose in Android?
+* How to display a **Text** and apply various styles on a Text?
+* How to display a **TextFiled**(EditText) and apply various styles on it?
+* How to use the **Preview** and **PreviewParameter** feature offered by Android Studio?
+* Learn how to use various layouts such as **Column**, **ScrollableColumn**, **LazyColumn**, **Row**, **ScrollableRow**, **Box**, **Stack**, and **ConstraintLayout** in Jetpack Compose?
+* Learn the usage of **Clickable** in Jetpack Compose with the help of examples.
+* How to use **Buttons**, **Card**, **Images**, **AlertDialog** in Jetpack Compose?
+* Through Jetpack Compose tutorial, you will learn various Material Design UI elements such as **BottomAppBar**, **TopAppBar**, **BottomNavigation**, **Checkbox**, **CircularProgressIndicator**, **LinearProgressIndicator**, **RadioButton**, **Slider**, **Snackbar**, and **Switch**.
+* Learn how to make **Custom Views** in Jetpack Compose?
+* How to add animation such as **Crossfade** and **Shape Rotation** in Jetpack Compose?
 
 ## Jetpack Compose Examples for Android Development:
-* **Simple TextView:**
+* **Simple TextView:** Learn how to display text using Compose?
+* **Text Styling:** Learn how to add various styles on a Text in Compose?
+* **TextField(EditText):** Example to show the usage of EditText in Compose.
+* **Simple Preview:** Learn how to use the Preview feature of Android Studio for Jetpack Compose?
+* **Preview Parameter:** Learn how to pass parameters in a Preview annotation in Jetpack Compose?
+* **Simple Column:** Example to display UI elements vertically.
+* **Scrollable Column:** Tutorial of Scrollable Column in Jetpack Compose.
+* **Lazy Column:** Learn how to lazily add elements in a Column using LazyColumn?
+* **Simple Row:** Compose tutorial on how to display UI elements horizontally?
+* **Scrollable Row:** Example of Scrollable Row in Jetpack Compose.
+* **Box:** Learn the usage of Box Layout in Compose with the help of an example.
+* **Stack:** Tutorial on how to place one UI element over other and vice-versa?
+* **Constraint Layout:** Learn how to use ConstraintLayout in Compose?
+* **Button:** Learn how to use Buttons and how to add styles to a Button in Compose?
+* **Card:** Example to learn the usage of CardView in Compose.
+* **Clickable:** Tutorial to show how UI elements can be made clickable?
+* **Image:** Example of ImageView in Compose.
+* **Alert Dialog:** Learn how to show AlertDialog in Compose?
+* **Material AppBar:** Compose Tutorial of BottomAppBar and TopAppBar.
+* **Material BottomNavigation:** Example of BottomNavigation in Jetpack Compose.
+* **Material Checkbox:** Tutorial of Checkbox in Jetpack Compose.
+* **Material ProgressBar:** Learn how to use Circular and Linear ProgressBar in Compose?
+* **Material RadioButton:** Learn how to use RadioButton in Jetpack Compose?
+* **Material Slider:** Example of Linear and Discrete Slider in Compose.
+* **Material Snackbar:** Learn to display some information using a Snackbar in Compose.
+* **Material Switch:** Learn how to use Switch in Compose?
+* **Custom View:** Example of creating your own Custom View in Jetpack Compose.
+* **Crossfade Animation:** Example of showing Crossfade animation in Jetpack Compose.
+* **Shape Rotation Animation:** Compose tutorial of Square Shape Rotation Animation.
 
 ## Explore Android Online Tutorials and Courses To Learn More by MindOrks
 * [Ride-Sharing Uber Lyft Android App](https://github.com/MindorksOpenSource/ridesharing-uber-lyft-app) - Learn to build a ride-sharing Android Taxi Clone App like Uber, Lyft - Open-Source Project By MindOrks
