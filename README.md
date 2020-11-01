@@ -1,4 +1,4 @@
-<img src=https://raw.githubusercontent.com/MindorksOpenSource/Jetpack-Compose-Android-Examples/main/assets/banner-jetpack-compose.jpg >
+<img src=https://github.com/MindorksOpenSource/Jetpack-Compose-Android-Examples/blob/main/assets/banner-jetpack-compose.jpg >
 
 # Jetpack-Compose-Android-Examples
 ## Learn Jetpack Compose for Android by Examples. Learn how to use Jetpack Compose for Android App Development. Android’s modern toolkit for building native UI.
