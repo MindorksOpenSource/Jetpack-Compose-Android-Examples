@@ -49,7 +49,7 @@ fun SimpleCheckboxComponent() {
     val checkedState = remember { mutableStateOf(true) }
     Row {
         // Checkbox is a Composable that is used to indicate two states. You can either
-        // select or dis-select the Checkbox. Checkboxes are generally used when we have
+        // select or unselect the Checkbox. Checkboxes are generally used when we have
         // a number of options to choose from.
 
         // checked is used to identify or set if the checkbox is checked or not

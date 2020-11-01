@@ -37,7 +37,7 @@ fun BottomAppBarComponent() {
     BottomAppBar(
         modifier = Modifier.padding(16.dp).fillMaxWidth()
     ) {
-        // Here, this is a RowScope adn due this, all the children will be placed
+        // Here, this is a RowScope and due this, all the children will be placed
         // horizontally.
 
         // IconButton consists of an Icon that is behaving like a button. You can think
@@ -69,7 +69,7 @@ fun TopAppBarComponent() {
             }
         },
         actions = {
-            // Here, this is a RowScope adn due this, all the children will be placed
+            // Here, this is a RowScope and due to this, all children will be placed
             // horizontally.
             IconButton(onClick = { /* doSomething() */ }) {
                 Icon(Icons.Filled.Favorite)

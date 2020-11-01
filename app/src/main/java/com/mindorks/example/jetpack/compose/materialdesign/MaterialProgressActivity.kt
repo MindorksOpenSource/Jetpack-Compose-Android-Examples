@@ -22,9 +22,9 @@ class MaterialProgressActivity : AppCompatActivity() {
                 SimpleCircularProgressComponent()
                 SimpleTextComponent(text = "Circular ProgressBar with 40% progress")
                 CircularProgressComponent()
-                SimpleTextComponent(text = "Simple Linear Progress with 70% progress")
+                SimpleTextComponent(text = "Simple Linear Progress")
                 SimpleLinearProgressComponent()
-                SimpleTextComponent(text = "Linear Progress")
+                SimpleTextComponent(text = "Linear Progress with 70% progress")
                 LinearProgressComponent()
             }
         }
@@ -33,7 +33,7 @@ class MaterialProgressActivity : AppCompatActivity() {
 
 @Composable
 fun SimpleCircularProgressComponent() {
-    // CircularProgressIndicator is generally used at the loading screen and it says that
+    // CircularProgressIndicator is generally used at the loading screen and it indicates that
     // some progress is going on so please wait.
     CircularProgressIndicator(
         modifier = Modifier.padding(16.dp)

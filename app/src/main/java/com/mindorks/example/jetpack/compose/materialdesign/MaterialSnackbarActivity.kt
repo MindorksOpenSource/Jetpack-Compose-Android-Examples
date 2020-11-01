@@ -30,7 +30,7 @@ class MaterialSnackbarActivity : AppCompatActivity() {
 @Composable
 fun SimpleSnackbarComponent() {
     // A Snackbar is a composable that is used to show some information at
-    // the bottom of the screen. It is drawn over all the UI present on the screen.
+    // the bottom of the screen. It is drawn over all the UI elements present on the screen.
     // Some example of information may be when you deleted something, or when you
     // downloaded something.
     Snackbar(
@@ -43,8 +43,8 @@ fun SimpleSnackbarComponent() {
 
 @Composable
 fun ActionSnackbarComponent() {
-    // You can add some action on a Snackbar and on click of that action element
-    // some operation will be performed(most probably dismiss action to dismiss Snackbar)
+    // You can add some action on a Snackbar and on click of that action element,
+    // some operation will be performed(most probably click action to dismiss Snackbar)
     Snackbar(
         modifier = Modifier.padding(16.dp),
         text = {

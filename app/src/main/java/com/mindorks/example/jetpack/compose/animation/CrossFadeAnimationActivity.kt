@@ -29,7 +29,7 @@ fun CrossFadeAnimation() {
     val colors = listOf(Color.Red, Color.Green, Color.Blue, Color.Gray)
     var current by remember { mutableStateOf(colors[0]) }
     Column(modifier = Modifier.fillMaxSize()) {
-        // Crossfade animation is used when there is change in the screen like if there
+        // Crossfade animation is used when there is change in the screen, like if there
         // is a transition between screens or there is a change in color of the screens or
         // something like that.
         // For example, here onClick of the Box, we are changing the background color of Box

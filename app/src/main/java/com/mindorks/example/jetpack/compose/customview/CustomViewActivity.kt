@@ -27,7 +27,7 @@ fun CustomViewComponent() {
     // In Android, Canvas is used for 2D drawing on the screen. You can draw any
     // shape on your Canvas for example, Rectangle, Square, Circle etc.
     Canvas(modifier = Modifier.fillMaxSize().padding(16.dp)) {
-        // dearRect is used to draw a rectangle
+        // drawRect is used to draw a rectangle
         drawRect(
             color = Color.Red,
             // topLeft is the coordinate of top-left point
@@ -53,14 +53,14 @@ fun CustomViewComponent() {
             size = Size(600f, 600f),
             topLeft = Offset(300f, 300f)
         )
-        // drawArc is used to draw a line with start and end point
+        // drawLine is used to draw a line with start and end point
         drawLine(
             color = Color.Green,
             start = Offset(400f, 400f),
             end = Offset(500f, 500f),
             strokeWidth = 4f
         )
-        // drawArc is used to draw a circle
+        // drawCircle is used to draw a circle
         drawCircle(
             color = Color.Red,
             center = Offset(500f, 500f),

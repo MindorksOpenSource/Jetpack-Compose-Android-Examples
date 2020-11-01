@@ -24,14 +24,14 @@ fun ConstraintLayoutComponent() {
     // The ConstraintLayout is a Composable that is used to include the elements in a
     // ConstraintLayout that are constrained with respect to each other.
     ConstraintLayout(modifier = Modifier.fillMaxSize()) {
-        // createRefs is used to tell which elements are going to be a part of
-        // the ConstraintLayout. Here, button, textTop, textBottom, textStart, and textEnd
+        // createRefs is used to tell which elements are going to be the part of
+        // ConstraintLayout. Here, button, textTop, textBottom, textStart, and textEnd
         // are the part of ConstraintLayout
         val (button, textTop, textBottom, textStart, textEnd) = createRefs()
         Button(
             onClick = { /* Do something */ },
             // linkTo is used to connect some side of one element to some side of other element
-            // constrainAs is used to tell on which element we are allying constrain in the
+            // constrainAs is used to tell on which element we are applying constrain in the
             // ConstraintLayout
             modifier = Modifier.constrainAs(button) {
                 top.linkTo(parent.top)

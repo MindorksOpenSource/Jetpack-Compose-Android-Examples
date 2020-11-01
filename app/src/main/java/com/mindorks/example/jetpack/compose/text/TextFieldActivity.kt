@@ -83,7 +83,7 @@ fun SimpleTextFieldComponent() {
     // then the surface will try to match its color with the background color.
     Surface(color = Color.LightGray, modifier = Modifier.padding(16.dp)) {
         var text by remember { mutableStateOf(TextFieldValue("Enter text here")) }
-        // BaseTextField is a composable that is used to edit text. It is similar to EditText
+        // BaseTextField is a composable that is used to take input. It is similar to EditText.
         // onValueChange will be called when there is a change in content of text field.
         BaseTextField(value = text,
             modifier = Modifier.padding(16.dp).fillMaxWidth(),

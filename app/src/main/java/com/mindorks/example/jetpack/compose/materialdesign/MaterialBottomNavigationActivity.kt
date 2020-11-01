@@ -72,7 +72,7 @@ fun BottomNavigationWithoutLabelComponent() {
                 icon = { Icon(Icons.Filled.Favorite) },
                 selected = selectedItem == index,
                 onClick = { selectedItem = index },
-                // by alwaysShowLabels is used to set if you want to show the labels always or
+                // alwaysShowLabels is used to set if you want to show the labels always or
                 // just for the current item.
                 alwaysShowLabels = false
             )

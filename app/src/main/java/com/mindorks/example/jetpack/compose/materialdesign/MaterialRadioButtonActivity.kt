@@ -46,7 +46,7 @@ fun SimpleRadioButtonComponent() {
                 // RadioButton is used to add some selectable option and you can either select
                 // or unselect the option.
                 // This is generally used when we have a number of options available and we
-                // want the users to select only option out of those many options.
+                // want the users to select only one option out of those many options.
                 // To select more than one option, you can try Checkbox.
                 RadioButton(
                     selected = (text == selectedOption),
