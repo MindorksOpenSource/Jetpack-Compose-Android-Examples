@@ -21,6 +21,8 @@
         <activity android:name=".text.SimpleTextActivity" />
         <activity android:name=".text.TextStylingActivity" />
         <activity android:name=".text.TextFieldActivity" />
+        <activity android:name=".preview.SimplePreviewActivity" />
+        <activity android:name=".preview.PreviewParameterActivity" />
     </application>
 
 </manifest>

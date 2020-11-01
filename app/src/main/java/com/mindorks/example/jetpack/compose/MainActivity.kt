@@ -21,6 +21,8 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.core.content.ContextCompat
 import androidx.core.os.bundleOf
+import com.mindorks.example.jetpack.compose.preview.PreviewParameterActivity
+import com.mindorks.example.jetpack.compose.preview.SimplePreviewActivity
 import com.mindorks.example.jetpack.compose.text.SimpleTextActivity
 import com.mindorks.example.jetpack.compose.text.TextFieldActivity
 import com.mindorks.example.jetpack.compose.text.TextStylingActivity
@@ -49,6 +51,19 @@ class MainActivity : AppCompatActivity() {
                     buttonText = "Text Field (EditText)"
                 )
                 Divider(color = Color.Black)
+                ButtonComponent(
+                    context = context,
+                    intent = Intent(context, SimplePreviewActivity::class.java),
+                    buttonText = "Simple Preview"
+                )
+                Divider(color = Color.Black)
+                ButtonComponent(
+                    context = context,
+                    intent = Intent(context, PreviewParameterActivity::class.java),
+                    buttonText = "Preview Parameter"
+                )
+                Divider(color = Color.Black)
+
             }
         }
     }
