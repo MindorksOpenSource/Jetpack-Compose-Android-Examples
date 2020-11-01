@@ -6,6 +6,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.compose.foundation.ScrollableColumn
 import androidx.compose.foundation.Text
+import androidx.compose.foundation.contentColor
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -21,6 +22,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.core.content.ContextCompat
 import androidx.core.os.bundleOf
+import com.mindorks.example.jetpack.compose.layout.*
 import com.mindorks.example.jetpack.compose.preview.PreviewParameterActivity
 import com.mindorks.example.jetpack.compose.preview.SimplePreviewActivity
 import com.mindorks.example.jetpack.compose.text.SimpleTextActivity
@@ -63,6 +65,55 @@ class MainActivity : AppCompatActivity() {
                     buttonText = "Preview Parameter"
                 )
                 Divider(color = Color.Black)
+                ButtonComponent(
+                    context = context,
+                    intent = Intent(context, ColumnActivity::class.java),
+                    buttonText = "Simple Column"
+                )
+                Divider(color = Color.Black)
+                ButtonComponent(
+                    context = context,
+                    intent = Intent(context, ScrollableColumnActivity::class.java),
+                    buttonText = "Scrollable Column"
+                )
+                Divider(color = Color.Black)
+                ButtonComponent(
+                    context = context,
+                    intent = Intent(context, LazyColumnActivity::class.java),
+                    buttonText = "Lazy Column"
+                )
+                Divider(color = Color.Black)
+                ButtonComponent(
+                    context = context,
+                    intent = Intent(context, RowActivity::class.java),
+                    buttonText = "Row"
+                )
+                Divider(color = Color.Black)
+                ButtonComponent(
+                    context = context,
+                    intent = Intent(context, ScrollableRowActivity::class.java),
+                    buttonText = "Scrollable Row"
+                )
+                Divider(color = Color.Black)
+                ButtonComponent(
+                    context = context,
+                    intent = Intent(context, BoxActivity::class.java),
+                    buttonText = "Box"
+                )
+                Divider(color = Color.Black)
+                ButtonComponent(
+                    context = context,
+                    intent = Intent(context, StackActivity::class.java),
+                    buttonText = "Stack (Deprecated)"
+                )
+                Divider(color = Color.Black)
+                ButtonComponent(
+                    context = context,
+                    intent = Intent(context, ConstraintLayoutActivity::class.java),
+                    buttonText = "Constraint Layout"
+                )
+                Divider(color = Color.Black)
+
 
             }
         }
@@ -73,7 +124,7 @@ class MainActivity : AppCompatActivity() {
 fun ButtonComponent(context: Context, intent: Intent, buttonText: String) {
     Button(
         onClick = {
-            ContextCompat.startActivity(context, intent, bundleOf())
+            context.startActivity(intent)
         },
         modifier = Modifier.padding(16.dp).fillMaxWidth(),
         shape = RoundedCornerShape(8.dp),
