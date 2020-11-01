@@ -59,6 +59,61 @@
 * [**Crossfade Animation:**](https://github.com/MindorksOpenSource/Jetpack-Compose-Android-Examples/blob/main/app/src/main/java/com/mindorks/example/jetpack/compose/animation/CrossFadeAnimationActivity.kt) Example of showing Crossfade animation in Jetpack Compose.
 * [**Shape Rotation Animation:**](https://github.com/MindorksOpenSource/Jetpack-Compose-Android-Examples/blob/main/app/src/main/java/com/mindorks/example/jetpack/compose/animation/ShapeRotationActivity.kt) Compose tutorial of Square Shape Rotation Animation.
 
+## Project Directory Structure
+```
+.
+└── com.mindorks.example.jetpack.compose/
+    ├── animation/
+    │   ├── CrossFadeAnimationActivity.kt
+    │   └── ShapeRotationActivity.kt
+    ├── button/
+    │   └── MaterialButtonActivity.kt
+    ├── card/
+    │   └── CardExampleActivity.kt
+    ├── clickable/
+    │   └── ClickableExampleActivity.kt
+    ├── customview/
+    │   └── CustomViewActivity.kt
+    ├── data/
+    │   └── Blog.kt
+    ├── dialog/
+    │   └── AlertDialogActivity.kt
+    ├── image/
+    │   └── ImageActivity.kt
+    ├── layout/
+    │   ├── BoxActivity.kt
+    │   ├── ColumnActivity.kt
+    │   ├── ConstraintLayoutActivity.kt
+    │   ├── LazyColumnActivity.kt
+    │   ├── RowActivity.kt
+    │   ├── ScrollableColumnActivity.kt
+    │   ├── ScrollableRowActivity.kt
+    │   └── StackActivity.kt
+    ├── materialdesign/
+    │   ├── MaterialAppBarActivity.kt
+    │   ├── MaterialBottomNavigationActivity.kt
+    │   ├── MaterialCheckBoxActivity.kt
+    │   ├── MaterialProgressActivity.kt
+    │   ├── MaterialRadioButtonActivity.kt
+    │   ├── MaterialSliderActivity.kt
+    │   ├── MaterialSnackbarActivity.kt
+    │   └── MaterialSwitchActivity.kt
+    ├── preview/
+    │   ├── DummyBlogProvider
+    │   ├── PreviewParameterActivity.kt
+    │   └── SimplePreviewActivity.kt
+    ├── text/
+    │   ├── SimpleTextActivity.kt
+    │   ├── TextFieldActivity.kt
+    │   └── TextStylingActivity.kt
+    ├── ui/
+    │   ├── Color.kt
+    │   ├── Shape.kt
+    │   ├── Theme.kt
+    │   └── Type.kt
+    └── MainActivity.kt
+```
+
 ## Explore Android Online Tutorials and Courses To Learn More by MindOrks
 * [Ride-Sharing Uber Lyft Android App](https://github.com/MindorksOpenSource/ridesharing-uber-lyft-app) - Learn to build a ride-sharing Android Taxi Clone App like Uber, Lyft - Open-Source Project By MindOrks
 * [Android Tutorial](https://mindorks.com/android-tutorial) - All Free Android Tutorials by MindOrks
