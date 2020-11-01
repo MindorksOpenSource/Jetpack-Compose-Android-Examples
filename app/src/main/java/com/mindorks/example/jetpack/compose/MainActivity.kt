@@ -20,6 +20,10 @@ import androidx.compose.ui.platform.setContent
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.mindorks.example.jetpack.compose.button.MaterialButtonActivity
+import com.mindorks.example.jetpack.compose.card.CardExampleActivity
+import com.mindorks.example.jetpack.compose.clickable.ClickableExampleActivity
+import com.mindorks.example.jetpack.compose.dialog.AlertDialogActivity
+import com.mindorks.example.jetpack.compose.image.ImageActivity
 import com.mindorks.example.jetpack.compose.layout.*
 import com.mindorks.example.jetpack.compose.preview.PreviewParameterActivity
 import com.mindorks.example.jetpack.compose.preview.SimplePreviewActivity
@@ -115,6 +119,30 @@ class MainActivity : AppCompatActivity() {
                     context = context,
                     intent = Intent(context, MaterialButtonActivity::class.java),
                     buttonText = "Button"
+                )
+                Divider(color = Color.Black)
+                ButtonComponent(
+                    context = context,
+                    intent = Intent(context, CardExampleActivity::class.java),
+                    buttonText = "Card"
+                )
+                Divider(color = Color.Black)
+                ButtonComponent(
+                    context = context,
+                    intent = Intent(context, ClickableExampleActivity::class.java),
+                    buttonText = "Clickable"
+                )
+                Divider(color = Color.Black)
+                ButtonComponent(
+                    context = context,
+                    intent = Intent(context, ImageActivity::class.java),
+                    buttonText = "Image"
+                )
+                Divider(color = Color.Black)
+                ButtonComponent(
+                    context = context,
+                    intent = Intent(context, AlertDialogActivity::class.java),
+                    buttonText = "Alert Dialog"
                 )
                 Divider(color = Color.Black)
             }

@@ -32,6 +32,10 @@
         <activity android:name=".layout.StackActivity" />
         <activity android:name=".layout.ConstraintLayoutActivity" />
         <activity android:name=".button.MaterialButtonActivity" />
+        <activity android:name=".card.CardExampleActivity" />
+        <activity android:name=".clickable.ClickableExampleActivity" />
+        <activity android:name=".image.ImageActivity" />
+        <activity android:name=".dialog.AlertDialogActivity" />
     </application>
 
 </manifest>
