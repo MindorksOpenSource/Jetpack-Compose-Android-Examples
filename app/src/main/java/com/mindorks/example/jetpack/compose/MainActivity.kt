@@ -19,6 +19,8 @@ import androidx.compose.ui.platform.ContextAmbient
 import androidx.compose.ui.platform.setContent
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import com.mindorks.example.jetpack.compose.animation.CrossFadeAnimationActivity
+import com.mindorks.example.jetpack.compose.animation.ShapeRotationActivity
 import com.mindorks.example.jetpack.compose.button.MaterialButtonActivity
 import com.mindorks.example.jetpack.compose.card.CardExampleActivity
 import com.mindorks.example.jetpack.compose.clickable.ClickableExampleActivity
@@ -201,6 +203,17 @@ class MainActivity : AppCompatActivity() {
                     buttonText = "Custom View"
                 )
                 Divider(color = Color.Black)
+                ButtonComponent(
+                    context = context,
+                    intent = Intent(context, CrossFadeAnimationActivity::class.java),
+                    buttonText = "Crossfade Animation"
+                )
+                Divider(color = Color.Black)
+                ButtonComponent(
+                    context = context,
+                    intent = Intent(context, ShapeRotationActivity::class.java),
+                    buttonText = "Shape Rotation Animation"
+                )
             }
         }
     }
