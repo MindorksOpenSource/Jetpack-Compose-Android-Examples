@@ -4,7 +4,7 @@
 ## Learn Jetpack Compose for Android by Examples. Learn how to use Jetpack Compose for Android App Development. Android’s modern toolkit for building native UI.
 
 [![MindOrks](https://img.shields.io/badge/mindorks-opensource-blue.svg)](https://mindorks.com/open-source-projects)
-[![Connect with us](https://img.shields.io/badge/connect-with-us-blue.svg)](https://mindorks.com/connect-with-us)
+[![Connect with us](https://img.shields.io/badge/Connect%20with%20us-blue.svg)](https://mindorks.com/connect-with-us)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://opensource.org/licenses/Apache-2.0)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/MindorksOpenSource/Jetpack-Compose-Android-Examples/blob/main/LICENSE)
 
