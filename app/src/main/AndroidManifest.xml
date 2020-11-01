@@ -36,6 +36,14 @@
         <activity android:name=".clickable.ClickableExampleActivity" />
         <activity android:name=".image.ImageActivity" />
         <activity android:name=".dialog.AlertDialogActivity" />
+        <activity android:name=".materialdesign.MaterialAppBarActivity" />
+        <activity android:name=".materialdesign.MaterialBottomNavigationActivity" />
+        <activity android:name=".materialdesign.MaterialCheckBoxActivity" />
+        <activity android:name=".materialdesign.MaterialProgressActivity" />
+        <activity android:name=".materialdesign.MaterialRadioButtonActivity" />
+        <activity android:name=".materialdesign.MaterialSliderActivity" />
+        <activity android:name=".materialdesign.MaterialSnackbarActivity" />
+        <activity android:name=".materialdesign.MaterialSwitchActivity" />
     </application>
 
 </manifest>

@@ -25,6 +25,7 @@ import com.mindorks.example.jetpack.compose.clickable.ClickableExampleActivity
 import com.mindorks.example.jetpack.compose.dialog.AlertDialogActivity
 import com.mindorks.example.jetpack.compose.image.ImageActivity
 import com.mindorks.example.jetpack.compose.layout.*
+import com.mindorks.example.jetpack.compose.materialdesign.*
 import com.mindorks.example.jetpack.compose.preview.PreviewParameterActivity
 import com.mindorks.example.jetpack.compose.preview.SimplePreviewActivity
 import com.mindorks.example.jetpack.compose.text.SimpleTextActivity
@@ -143,6 +144,54 @@ class MainActivity : AppCompatActivity() {
                     context = context,
                     intent = Intent(context, AlertDialogActivity::class.java),
                     buttonText = "Alert Dialog"
+                )
+                Divider(color = Color.Black)
+                ButtonComponent(
+                    context = context,
+                    intent = Intent(context, MaterialAppBarActivity::class.java),
+                    buttonText = "Material App Bar"
+                )
+                Divider(color = Color.Black)
+                ButtonComponent(
+                    context = context,
+                    intent = Intent(context, MaterialBottomNavigationActivity::class.java),
+                    buttonText = "Material Bottom Navigation"
+                )
+                Divider(color = Color.Black)
+                ButtonComponent(
+                    context = context,
+                    intent = Intent(context, MaterialCheckBoxActivity::class.java),
+                    buttonText = "Material Checkbox"
+                )
+                Divider(color = Color.Black)
+                ButtonComponent(
+                    context = context,
+                    intent = Intent(context, MaterialProgressActivity::class.java),
+                    buttonText = "Material Progress Bar"
+                )
+                Divider(color = Color.Black)
+                ButtonComponent(
+                    context = context,
+                    intent = Intent(context, MaterialRadioButtonActivity::class.java),
+                    buttonText = "Material Radio Button"
+                )
+                Divider(color = Color.Black)
+                ButtonComponent(
+                    context = context,
+                    intent = Intent(context, MaterialSliderActivity::class.java),
+                    buttonText = "Material Slider"
+                )
+                Divider(color = Color.Black)
+                ButtonComponent(
+                    context = context,
+                    intent = Intent(context, MaterialSnackbarActivity::class.java),
+                    buttonText = "Material Snackbar"
+                )
+                Divider(color = Color.Black)
+                ButtonComponent(
+                    context = context,
+                    intent = Intent(context, MaterialSwitchActivity::class.java),
+                    buttonText = "Material Switch"
                 )
                 Divider(color = Color.Black)
             }
