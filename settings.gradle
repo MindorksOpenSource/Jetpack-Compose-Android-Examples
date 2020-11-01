@@ -1,0 +1,2 @@
+rootProject.name = "Jetpack-Compose-Android-Examples"
+include ':app'
