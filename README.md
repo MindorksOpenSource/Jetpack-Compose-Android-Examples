@@ -1,4 +1,4 @@
-<img src=https://raw.githubusercontent.com/MindorksOpenSource/Jetpack-Compose-Android-Examples/master/assets/banner-jetpack-compose.jpg >
+<img src=https://raw.githubusercontent.com/MindorksOpenSource/Jetpack-Compose-Android-Examples/main/assets/banner-jetpack-compose.jpg >
 
 # Jetpack-Compose-Android-Examples
 ## Learn Jetpack Compose for Android by Examples. Learn how to use Jetpack Compose for Android App Development. Android’s modern toolkit for building native UI.
@@ -6,7 +6,7 @@
 [![MindOrks](https://img.shields.io/badge/mindorks-opensource-blue.svg)](https://mindorks.com/open-source-projects)
 [![MindOrks Community](https://img.shields.io/badge/join-community-blue.svg)](https://mindorks.com/join-community)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://opensource.org/licenses/Apache-2.0)
-[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/MindorksOpenSource/Jetpack-Compose-Android-Examples/blob/master/LICENSE)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/MindorksOpenSource/Jetpack-Compose-Android-Examples/blob/main/LICENSE)
 
 ## About this project:
 * If you want to get started with Jetpack Compose for Android Development and wants to master it, then this project is for you.
