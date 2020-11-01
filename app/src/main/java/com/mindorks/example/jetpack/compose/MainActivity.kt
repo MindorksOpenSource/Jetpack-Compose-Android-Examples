@@ -22,6 +22,7 @@ import androidx.compose.ui.unit.dp
 import com.mindorks.example.jetpack.compose.button.MaterialButtonActivity
 import com.mindorks.example.jetpack.compose.card.CardExampleActivity
 import com.mindorks.example.jetpack.compose.clickable.ClickableExampleActivity
+import com.mindorks.example.jetpack.compose.customview.CustomViewActivity
 import com.mindorks.example.jetpack.compose.dialog.AlertDialogActivity
 import com.mindorks.example.jetpack.compose.image.ImageActivity
 import com.mindorks.example.jetpack.compose.layout.*
@@ -192,6 +193,12 @@ class MainActivity : AppCompatActivity() {
                     context = context,
                     intent = Intent(context, MaterialSwitchActivity::class.java),
                     buttonText = "Material Switch"
+                )
+                Divider(color = Color.Black)
+                ButtonComponent(
+                    context = context,
+                    intent = Intent(context, CustomViewActivity::class.java),
+                    buttonText = "Custom View"
                 )
                 Divider(color = Color.Black)
             }

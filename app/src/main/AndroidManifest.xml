@@ -44,6 +44,7 @@
         <activity android:name=".materialdesign.MaterialSliderActivity" />
         <activity android:name=".materialdesign.MaterialSnackbarActivity" />
         <activity android:name=".materialdesign.MaterialSwitchActivity" />
+        <activity android:name=".customview.CustomViewActivity" />
     </application>
 
 </manifest>
