@@ -6,7 +6,6 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.compose.foundation.ScrollableColumn
 import androidx.compose.foundation.Text
-import androidx.compose.foundation.contentColor
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -20,8 +19,7 @@ import androidx.compose.ui.platform.ContextAmbient
 import androidx.compose.ui.platform.setContent
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import androidx.core.content.ContextCompat
-import androidx.core.os.bundleOf
+import com.mindorks.example.jetpack.compose.button.MaterialButtonActivity
 import com.mindorks.example.jetpack.compose.layout.*
 import com.mindorks.example.jetpack.compose.preview.PreviewParameterActivity
 import com.mindorks.example.jetpack.compose.preview.SimplePreviewActivity
@@ -113,8 +111,12 @@ class MainActivity : AppCompatActivity() {
                     buttonText = "Constraint Layout"
                 )
                 Divider(color = Color.Black)
-
-
+                ButtonComponent(
+                    context = context,
+                    intent = Intent(context, MaterialButtonActivity::class.java),
+                    buttonText = "Button"
+                )
+                Divider(color = Color.Black)
             }
         }
     }

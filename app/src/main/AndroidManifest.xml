@@ -31,6 +31,7 @@
         <activity android:name=".layout.BoxActivity" />
         <activity android:name=".layout.StackActivity" />
         <activity android:name=".layout.ConstraintLayoutActivity" />
+        <activity android:name=".button.MaterialButtonActivity" />
     </application>
 
 </manifest>
