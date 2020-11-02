@@ -36,6 +36,7 @@
         <activity android:name=".clickable.ClickableExampleActivity" />
         <activity android:name=".image.ImageActivity" />
         <activity android:name=".dialog.AlertDialogActivity" />
+        <activity android:name=".dialog.SingleChoiceDialogActivity" />
         <activity android:name=".materialdesign.MaterialAppBarActivity" />
         <activity android:name=".materialdesign.MaterialBottomNavigationActivity" />
         <activity android:name=".materialdesign.MaterialCheckBoxActivity" />
