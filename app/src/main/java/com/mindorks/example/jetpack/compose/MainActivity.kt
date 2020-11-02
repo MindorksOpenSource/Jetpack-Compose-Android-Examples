@@ -26,6 +26,7 @@ import com.mindorks.example.jetpack.compose.card.CardExampleActivity
 import com.mindorks.example.jetpack.compose.clickable.ClickableExampleActivity
 import com.mindorks.example.jetpack.compose.customview.CustomViewActivity
 import com.mindorks.example.jetpack.compose.dialog.AlertDialogActivity
+import com.mindorks.example.jetpack.compose.dialog.SingleChoiceDialogActivity
 import com.mindorks.example.jetpack.compose.image.ImageActivity
 import com.mindorks.example.jetpack.compose.layout.*
 import com.mindorks.example.jetpack.compose.materialdesign.*
@@ -147,6 +148,12 @@ class MainActivity : AppCompatActivity() {
                     context = context,
                     intent = Intent(context, AlertDialogActivity::class.java),
                     buttonText = "Alert Dialog"
+                )
+                Divider(color = Color.Black)
+                ButtonComponent(
+                    context = context,
+                    intent = Intent(context, SingleChoiceDialogActivity::class.java),
+                    buttonText = "Single Choice Dialog"
                 )
                 Divider(color = Color.Black)
                 ButtonComponent(

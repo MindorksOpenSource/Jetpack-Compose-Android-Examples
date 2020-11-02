@@ -47,6 +47,7 @@
         <activity android:name=".customview.CustomViewActivity" />
         <activity android:name=".animation.CrossFadeAnimationActivity" />
         <activity android:name=".animation.ShapeRotationActivity" />
+        <activity android:name=".dialog.SingleChoiceDialogActivity" />
     </application>
 
 </manifest>
