@@ -18,7 +18,7 @@ import androidx.compose.ui.window.Dialog
 import java.util.*
 
 
-//The state should be at the lower most common parent of the
+// The state should be at the lower most common parent of the
 // composables, which are going to interact.
 val dialogState by lazy { mutableStateOf(false) }
 val selectedCountry by lazy { mutableStateOf("") }
@@ -65,7 +65,7 @@ fun SingleChoiceDialogActivityContent() {
 fun CountriesDialog() {
     SingleSelectDialog(
         dialogState = dialogState,
-        title = "Choice your Country",
+        title = "Choose your Country",
         optionsList = countriesList,
         submitButtonText = "Select",
         onSubmitButtonClick = { selectedCountry.value = countriesList[it] },
@@ -73,10 +73,10 @@ fun CountriesDialog() {
     )
 }
 
-@Composable
 // Generally it's a good habit that we create 2 composables, one which accepts
 // state and one which maintain its own state. That way,
-// the developer has more control which approach he/she want to follow.
+// the developer has more control ,which approach he/she wants to follow.
+@Composable
 fun SingleSelectDialog(
     dialogState: MutableState<Boolean>,
     title: String,
@@ -159,7 +159,8 @@ fun RadioButton(text: String, selectedValue: String, onClickListener: (String) -
         )
         .padding(horizontal = 16.dp)
     ) {
-        //The Default Radio Button in Jetpack Compose doesn't accept text as an argument. So have Text Composable to show text.
+        // The Default Radio Button in Jetpack Compose doesn't accept text as an argument.
+        // So have Text Composable to show text.
         RadioButton(
             selected = (text == selectedValue),
             onClick = {
