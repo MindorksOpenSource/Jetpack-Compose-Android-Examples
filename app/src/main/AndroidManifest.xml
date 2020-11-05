@@ -28,6 +28,7 @@
         <activity android:name=".layout.LazyColumnActivity" />
         <activity android:name=".layout.RowActivity" />
         <activity android:name=".layout.ScrollableRowActivity" />
+        <activity android:name=".layout.LazyRowActivity" />
         <activity android:name=".layout.BoxActivity" />
         <activity android:name=".layout.StackActivity" />
         <activity android:name=".layout.ConstraintLayoutActivity" />

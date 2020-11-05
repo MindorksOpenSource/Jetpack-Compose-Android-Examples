@@ -104,6 +104,12 @@ class MainActivity : AppCompatActivity() {
                 Divider(color = Color.Black)
                 ButtonComponent(
                     context = context,
+                    intent = Intent(context, LazyRowActivity::class.java),
+                    buttonText = "Lazy Row"
+                )
+                Divider(color = Color.Black)
+                ButtonComponent(
+                    context = context,
                     intent = Intent(context, BoxActivity::class.java),
                     buttonText = "Box"
                 )
