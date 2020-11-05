@@ -21,9 +21,9 @@
 * How to display a **Text** and apply various styles on a Text?
 * How to display a **TextField**(EditText) and apply various styles on it?
 * How to use the **Preview** and **PreviewParameter** feature offered by Android Studio?
-* Learn how to use various layouts such as **Column**, **ScrollableColumn**, **LazyColumn**, **Row**, **ScrollableRow**, **Box**, **Stack**, and **ConstraintLayout** in Jetpack Compose?
+* Learn how to use various layouts such as **Column**, **ScrollableColumn**, **LazyColumn**, **Row**, **ScrollableRow**, **LazyRow**, **Box**, **Stack**, and **ConstraintLayout** in Jetpack Compose?
 * Learn the usage of **Clickable** in Jetpack Compose with the help of examples.
-* How to use **Buttons**, **Card**, **Images**, **AlertDialog** in Jetpack Compose?
+* How to use **Buttons**, **Card**, **Images**, **AlertDialog**, **Single Choice Dialog** in Jetpack Compose?
 * Through Jetpack Compose tutorial, you will learn various Material Design UI elements such as **BottomAppBar**, **TopAppBar**, **BottomNavigation**, **Checkbox**, **CircularProgressIndicator**, **LinearProgressIndicator**, **RadioButton**, **Slider**, **Snackbar**, and **Switch**.
 * Learn how to make **Custom Views** in Jetpack Compose?
 * How to add animation such as **Crossfade** and **Shape Rotation** in Jetpack Compose?
@@ -39,6 +39,7 @@
 * [**Lazy Column:**](https://github.com/MindorksOpenSource/Jetpack-Compose-Android-Examples/blob/main/app/src/main/java/com/mindorks/example/jetpack/compose/layout/LazyColumnActivity.kt) Learn how to lazily add elements in a Column using LazyColumn?
 * [**Simple Row:**](https://github.com/MindorksOpenSource/Jetpack-Compose-Android-Examples/blob/main/app/src/main/java/com/mindorks/example/jetpack/compose/layout/RowActivity.kt) Compose tutorial on how to display UI elements horizontally?
 * [**Scrollable Row:**](https://github.com/MindorksOpenSource/Jetpack-Compose-Android-Examples/blob/main/app/src/main/java/com/mindorks/example/jetpack/compose/layout/ScrollableRowActivity.kt) Example of Scrollable Row in Jetpack Compose.
+* [**Lazy Row:**](https://github.com/MindorksOpenSource/Jetpack-Compose-Android-Examples/blob/main/app/src/main/java/com/mindorks/example/jetpack/compose/layout/LazyRowActivity.kt) Example of Lazy Row in Jetpack Compose.
 * [**Box:**](https://github.com/MindorksOpenSource/Jetpack-Compose-Android-Examples/blob/main/app/src/main/java/com/mindorks/example/jetpack/compose/layout/BoxActivity.kt) Learn the usage of Box Layout in Compose with the help of an example.
 * [**Stack:**](https://github.com/MindorksOpenSource/Jetpack-Compose-Android-Examples/blob/main/app/src/main/java/com/mindorks/example/jetpack/compose/layout/StackActivity.kt) Tutorial on how to place one UI element over other and vice-versa?
 * [**Constraint Layout:**](https://github.com/MindorksOpenSource/Jetpack-Compose-Android-Examples/blob/main/app/src/main/java/com/mindorks/example/jetpack/compose/layout/ConstraintLayoutActivity.kt) Learn how to use ConstraintLayout in Compose?
@@ -47,6 +48,7 @@
 * [**Clickable:**](https://github.com/MindorksOpenSource/Jetpack-Compose-Android-Examples/blob/main/app/src/main/java/com/mindorks/example/jetpack/compose/clickable/ClickableExampleActivity.kt) Tutorial to show how UI elements can be made clickable?
 * [**Image:**](https://github.com/MindorksOpenSource/Jetpack-Compose-Android-Examples/blob/main/app/src/main/java/com/mindorks/example/jetpack/compose/image/ImageActivity.kt) Example of ImageView in Compose.
 * [**Alert Dialog:**](https://github.com/MindorksOpenSource/Jetpack-Compose-Android-Examples/blob/main/app/src/main/java/com/mindorks/example/jetpack/compose/dialog/AlertDialogActivity.kt) Learn how to show AlertDialog in Compose?
+* [**Single Choice Dialog:**](https://github.com/MindorksOpenSource/Jetpack-Compose-Android-Examples/blob/main/app/src/main/java/com/mindorks/example/jetpack/compose/dialog/SingleChoiceDialogActivity.kt) Learn how to show Single Choice Dialog in Compose?
 * [**Material AppBar:**](https://github.com/MindorksOpenSource/Jetpack-Compose-Android-Examples/blob/main/app/src/main/java/com/mindorks/example/jetpack/compose/materialdesign/MaterialAppBarActivity.kt) Compose Tutorial of BottomAppBar and TopAppBar.
 * [**Material BottomNavigation:**](https://github.com/MindorksOpenSource/Jetpack-Compose-Android-Examples/blob/main/app/src/main/java/com/mindorks/example/jetpack/compose/materialdesign/MaterialBottomNavigationActivity.kt) Example of BottomNavigation in Jetpack Compose.
 * [**Material Checkbox:**](https://github.com/MindorksOpenSource/Jetpack-Compose-Android-Examples/blob/main/app/src/main/java/com/mindorks/example/jetpack/compose/materialdesign/MaterialCheckBoxActivity.kt) Tutorial of Checkbox in Jetpack Compose.
@@ -77,7 +79,8 @@
     ├── data/
     │   └── Blog.kt
     ├── dialog/
-    │   └── AlertDialogActivity.kt
+    │   ├── AlertDialogActivity.kt
+    │   └── SingleChoiceDialogActivity.kt
     ├── image/
     │   └── ImageActivity.kt
     ├── layout/
@@ -85,6 +88,7 @@
     │   ├── ColumnActivity.kt
     │   ├── ConstraintLayoutActivity.kt
     │   ├── LazyColumnActivity.kt
+    │   ├── LazyRowActivity.kt
     │   ├── RowActivity.kt
     │   ├── ScrollableColumnActivity.kt
     │   ├── ScrollableRowActivity.kt
@@ -113,6 +117,10 @@
     │   └── Type.kt
     └── MainActivity.kt
 ```
+
+## References useful during learning the Jetpack Compose for Android from this project
+* [Jetpack Compose Tutorial - Step by Step Guide](https://blog.mindorks.com/jetpack-compose-tutorial)
+* [State Management in Jetpack Compose](https://blog.mindorks.com/state-management-in-jetpack-compose)
 
 ## Explore Android Online Tutorials and Courses To Learn More by MindOrks
 * [Ride-Sharing Uber Lyft Android App](https://github.com/MindorksOpenSource/ridesharing-uber-lyft-app) - Learn to build a ride-sharing Android Taxi Clone App like Uber, Lyft - Open-Source Project By MindOrks
