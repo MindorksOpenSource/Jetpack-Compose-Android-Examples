@@ -85,7 +85,8 @@ fun SimpleTextFieldComponent() {
         var text by remember { mutableStateOf(TextFieldValue("Enter text here")) }
         // BaseTextField is a composable that is used to take input. It is similar to EditText.
         // onValueChange will be called when there is a change in content of text field.
-        BaseTextField(value = text,
+        BaseTextField(
+            value = text,
             modifier = Modifier.padding(16.dp).fillMaxWidth(),
             onValueChange = {
                 text = it
@@ -93,6 +94,7 @@ fun SimpleTextFieldComponent() {
         )
     }
 }
+
 
 @ExperimentalFoundationApi
 @Composable
@@ -144,7 +146,6 @@ fun SimpleMaterialTextFieldComponent() {
     )
 }
 
-@ExperimentalFoundationApi
 @Composable
 fun PlaceholderMaterialTextFieldComponent() {
     // savedInstanceState behaves similarly to remember { mutableStateOf(...) }, but the stored value
@@ -161,7 +162,6 @@ fun PlaceholderMaterialTextFieldComponent() {
     )
 }
 
-@ExperimentalFoundationApi
 @Composable
 fun IconMaterialTextFieldComponent() {
     // savedInstanceState behaves similarly to remember { mutableStateOf(...) }, but the stored value
@@ -181,7 +181,6 @@ fun IconMaterialTextFieldComponent() {
     )
 }
 
-@ExperimentalFoundationApi
 @Composable
 fun ErrorMaterialTextFieldComponent() {
     // savedInstanceState behaves similarly to remember { mutableStateOf(...) }, but the stored value
