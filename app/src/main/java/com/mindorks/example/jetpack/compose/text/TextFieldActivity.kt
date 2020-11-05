@@ -152,7 +152,7 @@ fun PlaceholderMaterialTextFieldComponent() {
     // will survive the activity or process recreation using the saved instance state mechanism
     // (for example it happens when the screen is rotated in the Android application)
     var text by savedInstanceState { "" }
-    // placeholder is displayed when the TextFiled is focused and is empty.
+    // placeholder is displayed when the TextField is focused and is empty.
     TextField(
         value = text,
         modifier = Modifier.padding(16.dp).fillMaxWidth(),

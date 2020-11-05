@@ -19,7 +19,7 @@
 ## This Jetpack Compose Example Project will help you in learning the following for Android App Development:
 * How to build UI using Jetpack Compose in Android?
 * How to display a **Text** and apply various styles on a Text?
-* How to display a **TextFiled**(EditText) and apply various styles on it?
+* How to display a **TextField**(EditText) and apply various styles on it?
 * How to use the **Preview** and **PreviewParameter** feature offered by Android Studio?
 * Learn how to use various layouts such as **Column**, **ScrollableColumn**, **LazyColumn**, **Row**, **ScrollableRow**, **Box**, **Stack**, and **ConstraintLayout** in Jetpack Compose?
 * Learn the usage of **Clickable** in Jetpack Compose with the help of examples.
